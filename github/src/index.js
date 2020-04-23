@@ -7,31 +7,11 @@
  */
 
 import React, {Fragment, Component} from 'react';
-import {
-  SafeAreaView,
-  StyleSheet,
-  ScrollView,
-  View,
-  Text,
-  StatusBar,
-} from 'react-native';
-
-import {
-  Header,
-  LearnMoreLinks,
-  Colors,
-  DebugInstructions,
-  ReloadInstructions,
-} from 'react-native/Libraries/NewAppScreen';
 
 import './config/DevTools';
 
 import AsyncStorange from '@react-native-community/async-storage';
 import createSwitchNavigator from './routes';
-
-// import React, { Component } from 'react';
-
-// import { Container } from './styles';
 
 export default class App extends Component {
   state = {
